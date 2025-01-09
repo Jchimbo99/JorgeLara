@@ -3,41 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Tecnología</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-        section {
-            margin: 20px;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            background-color: #4CAF50;
-            color: white;
-        }
-        button {
-            margin-top: 10px;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            background-color: #4CAF50;
-            color: white;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <title>Tecnología</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <section id="tecnologia">
-        <h2>Tecnología</h2>
-        <p>Descubre las últimaas innovaciones en tecnología. Desde inteligencia artificial hasta computación cuántica.</p>
-        <button onclick="alert('¡Tecnología es el futuro!')">Explorar Tecnología</button>
-    </section>
+    <header class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <h1>Tecnología</h1>
+        </div>
+    </header>
+    <div class="container mt-5">
+        <div class="card shadow">
+            <img src="imagenes/2023071617532164037-1024x585.jpg" class="card-img-top" alt="Tecnología">
+            <div class="card-body">
+                <h2 class="card-title text-center">Innovación Tecnológica</h2>
+                <p class="card-text text-justify">
+                    La tecnología está transformando el mundo en que vivimos, creando soluciones innovadoras que impactan cada aspecto de nuestra vida diaria. Desde la inteligencia artificial que impulsa nuestras decisiones diarias hasta la computación cuántica que redefine los límites del procesamiento de datos, estamos siendo testigos de una revolución sin precedentes en todos los sectores.
+
+En el ámbito de la comunicación, las tecnologías como el 5G están permitiendo conexiones más rápidas y eficientes, mientras que las plataformas digitales facilitan la interacción global en tiempo real. Esto no solo transforma las relaciones personales, sino que también abre nuevas oportunidades para el comercio electrónico, la educación a distancia y el trabajo remoto.
+
+Por otro lado, la sostenibilidad está en el centro de muchas innovaciones tecnológicas. Los avances en energías renovables, como la solar y la eólica, están desempeñando un papel crucial en la reducción de la dependencia de combustibles fósiles. Los vehículos eléctricos y las ciudades inteligentes están redefiniendo la movilidad urbana, mejorando la eficiencia energética y reduciendo las emisiones de carbono.
+
+En el campo de la salud, la biotecnología y la nanotecnología están revolucionando el diagnóstico y tratamiento de enfermedades. Desde dispositivos portátiles que monitorean nuestra salud en tiempo real hasta terapias personalizadas basadas en el análisis genético, la tecnología está ampliando nuestras posibilidades de vivir vidas más largas y saludables.
+
+Además, tecnologías disruptivas como el blockchain están redefiniendo la seguridad y la transparencia en sectores como las finanzas, la logística y la gestión de datos. Mientras tanto, la realidad aumentada y la realidad virtual están llevando el entretenimiento, la capacitación y el diseño a niveles completamente nuevos.
+
+Sin embargo, con estos avances también surgen desafíos. La ciberseguridad, la privacidad de los datos y la brecha digital son cuestiones críticas que deben abordarse para garantizar que los beneficios de la tecnología sean accesibles para todos. Asimismo, el impacto en el empleo y la necesidad de nuevas habilidades subrayan la importancia de la educación y la adaptación continua.
+
+En conclusión, la innovación tecnológica es un motor poderoso que está transformando nuestra sociedad. Nos ofrece soluciones para los problemas actuales y abre puertas a un futuro lleno de posibilidades. A medida que seguimos avanzando, es fundamental equilibrar el progreso con un enfoque ético y sostenible para maximizar los beneficios para la humanidad y el planeta.
+                </p>
+                <div class="d-flex justify-content-center">
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Explorar Tecnología
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#ai-section">Inteligencia Artificial</a></li>
+                            <li><a class="dropdown-item" href="#quantum-section">Computación Cuántica</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Inteligencia Artificial -->
+    <div class="container mt-5" id="ai-section">
+        <div class="card shadow mb-4">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="imagenes/artificial.jpg" class="img-fluid rounded-start" alt="Inteligencia Artificial">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Inteligencia Artificial</h3>
+                        <p class="card-text">
+                            La inteligencia artificial (IA) está revolucionando industrias enteras, desde la salud hasta la educación. Los sistemas de aprendizaje automático y las redes neuronales están permitiendo avances como el reconocimiento facial, la traducción en tiempo real y los vehículos autónomos.
+
+En el ámbito de la salud, la IA ayuda a los médicos a diagnosticar enfermedades con mayor precisión mediante el análisis de imágenes médicas y datos de pacientes. En la educación, los sistemas personalizados de aprendizaje adaptativo están transformando la manera en que los estudiantes adquieren conocimientos, ajustándose a sus necesidades específicas.
+
+Además, la IA está impulsando el desarrollo de asistentes virtuales como Siri, Alexa y Google Assistant, que simplifican tareas cotidianas y mejoran la experiencia de usuario en dispositivos electrónicos. En el sector financiero, los algoritmos de IA permiten detectar fraudes en tiempo real y analizar grandes volúmenes de datos para tomar decisiones estratégicas.
+
+Por otro lado, tecnologías avanzadas como los modelos de lenguaje natural están facilitando la creación de contenido, la interacción humano-computadora y la automatización de procesos. Sin embargo, el uso de IA también plantea importantes desafíos éticos, como la privacidad de los datos, el sesgo algorítmico y el impacto en el empleo, que deben abordarse para garantizar un desarrollo responsable.
+
+En resumen, la inteligencia artificial no solo está transformando cómo vivimos y trabajamos, sino que también abre la puerta a un futuro lleno de posibilidades, siempre y cuando se maneje con cuidado y ética.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Computación Cuántica -->
+    <div class="container" id="quantum-section">
+        <div class="card shadow mb-4">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="imagenes/2023071617532164037-1024x585.jpg" class="img-fluid rounded-start" alt="Computación Cuántica">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Computación Cuántica</h3>
+                        <p class="card-text">
+                            La computación cuántica está redefiniendo los límites del procesamiento de datos, introduciendo una nueva era de posibilidades en la informática. Utilizando principios fundamentales de la mecánica cuántica, como la superposición y el entrelazamiento, estas máquinas prometen resolver problemas increíblemente complejos en segundos, algo que tomaría miles de años para las supercomputadoras más avanzadas.
+
+                            A diferencia de las computadoras tradicionales, que procesan información en bits representados como 0 o 1, las computadoras cuánticas utilizan cúbits (bits cuánticos). Gracias a la superposición, un cúbit puede representar simultáneamente múltiples estados, lo que permite realizar cálculos masivamente paralelos. Además, el entrelazamiento cuántico permite que los cúbits compartan información instantáneamente, incluso cuando están separados por grandes distancias.
+
+                                Los posibles campos de aplicación de la computación cuántica son diversos y transformadores. En la química cuántica, estas máquinas tienen el potencial de simular moléculas complejas para desarrollar nuevos medicamentos y materiales avanzados. En la optimización, pueden resolver problemas logísticos masivos, como rutas de transporte o distribución de recursos, con una eficiencia sin precedentes.
+
+En la inteligencia artificial, los algoritmos cuánticos podrían acelerar significativamente el aprendizaje automático, permitiendo modelos más precisos y rápidos en áreas como el reconocimiento de patrones, la predicción y la toma de decisiones. En el ámbito de la ciberseguridad, aunque las computadoras cuánticas podrían romper los sistemas de cifrado actuales, también están sentando las bases para la criptografía cuántica, que promete comunicaciones ultra seguras.
+
+Sin embargo, la computación cuántica aún enfrenta importantes desafíos. La creación y el mantenimiento de cúbits estables, libres de errores cuánticos, requiere condiciones extremadamente controladas, como temperaturas cercanas al cero absoluto. Además, el desarrollo de software y algoritmos específicos para estas máquinas sigue siendo un área activa de investigación.
+
+A medida que gigantes tecnológicos y laboratorios de investigación continúan avanzando en este campo, la computación cuántica está cada vez más cerca de convertirse en una realidad práctica. Aunque aún estamos en las etapas iniciales, su impacto potencial podría transformar la ciencia, la industria y la sociedad, llevándonos a resolver problemas que antes eran considerados imposibles.
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2025 Innovación Tecnológica</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
