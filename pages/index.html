@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Página Tecnología</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,35 +11,13 @@
             padding: 0;
             background-color: #f9f9f9;
         }
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-        }
-        nav {
-            background-color: #444;
-            display: flex;
-            justify-content: center;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            padding: 10px 15px;
-            border-radius: 5px;
-            background-color: #555;
-        }
-        nav a:hover {
-            background-color: #666;
-        }
         section {
             margin: 20px;
             padding: 15px;
             border: 1px solid #ddd;
             border-radius: 5px;
-            background-color: white;
+            background-color: #4CAF50;
+            color: white;
         }
         button {
             margin-top: 10px;
@@ -47,68 +25,19 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-        }
-        /* Estilo específico por sección */
-        .tecnologia {
-            background-color: #4CAF50;
-        }
-        .contactos {
-            background-color: #2196F3;
-        }
-        .acerca {
-            background-color: #FF9800;
-        }
-        .tecnologia button {
             background-color: #4CAF50;
             color: white;
         }
-        .contactos button {
-            background-color: #2196F3;
-            color: white;
-        }
-        .acerca button {
-            background-color: #FF9800;
-            color: white;
-        }
-        .tecnologia button:hover {
+        button:hover {
             background-color: #45a049;
-        }
-        .contactos button:hover {
-            background-color: #1976D2;
-        }
-        .acerca button:hover {
-            background-color: #F57C00;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Página Principal</h1>
-    </header>
-    <nav>
-        <a href="#tecnologia">Tecnología</a>
-        <a href="#contactos">Contactos</a>
-        <a href="#acerca">Acerca de Nosotros</a>
-    </nav>
-
-    <section id="tecnologia" class="tecnologia">
+    <section id="tecnologia">
         <h2>Tecnología</h2>
-        <p>Descubre las últimas innovaciones en tecnología. Desde inteligencia artificial hasta computación cuántica.</p>
+        <p>Descubre las últimaas innovaciones en tecnología. Desde inteligencia artificial hasta computación cuántica.</p>
         <button onclick="alert('¡Tecnología es el futuro!')">Explorar Tecnología</button>
-    </section>
-
-    <section id="contactos" class="contactos">
-        <h2>Contactos</h2>
-        <p>Comunícate con nosotros. Estamos aquí para ayudarte.</p>
-        <button onclick="location.href='mailto:contacto@computadora.com'">Enviar un Correo</button>
-        <button onclick="alert('Número de contacto: +123 456 789')">Ver Número</button>
-    </section>
-
-    <section id="acerca" class="acerca">
-        <h2>Acerca de Nosotros</h2>
-        <p>Somos una compañía apasionada por la tecnología y el servicio al cliente. Nuestro objetivo es innovar y proporcionar soluciones efectivas.</p>
-        <button onclick="alert('¡Gracias por conocer más sobre nosotros!')">Saber Más</button>
     </section>
 </body>
 </html>
-
